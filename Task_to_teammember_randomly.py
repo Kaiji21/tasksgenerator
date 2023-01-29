@@ -14,6 +14,6 @@ while len(taches) > 0:
             taqsimhh[member].append(task_to_assign)
             taches.remove(task_to_assign)
 
-print("Taqsim dyal les taches:")
+print("Taqsim dyal les taches randomly:")
 for member in team_members:
     print(member, ":", taqsimhh[member])
